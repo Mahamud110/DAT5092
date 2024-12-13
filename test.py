@@ -7,7 +7,7 @@ def add(x,y):
 class TestAdd(unittest.TestCase):
 
     def test_add(self):
-        result = add(10,5)
+        result = add(20,1)
         self.assertEqual(result,15)
 
 if __name__ == '__main__':
