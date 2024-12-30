@@ -208,7 +208,7 @@ def main():
     df_attempts = calculate_shot_averages(nba_03, nba_13, nba_23)
     shot_changes = calculate_shot_percentage_changes(df_attempts)
     
-    # Create all plots
+    # Create all plots.
     create_scoring_attempts_plot(combined_df)
     plt.savefig('Figures/Scoring.png', format='png', dpi=300)
     create_shot_attempts_comparison(df_attempts)
