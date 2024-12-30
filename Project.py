@@ -210,8 +210,11 @@ def main():
     
     # Create all plots
     create_scoring_attempts_plot(combined_df)
+    plt.savefig('Figures/Scoring.png', format='png', dpi=300)
     create_shot_attempts_comparison(df_attempts)
+    plt.savefig('Figures/Evolution.png', format='png', dpi=300)
     create_pace_scoring_plot(combined_df)
+    plt.savefig('Figures/Pace.png', format='png', dpi=300)
     
     # Print statistics
     print("\nPercentage Changes in Shot Attempts (2003/04 to 2023/24):")
@@ -225,6 +228,7 @@ def main():
     
     # Show all plots
     plt.show()
+
 
 if __name__ == "__main__":
     main()
