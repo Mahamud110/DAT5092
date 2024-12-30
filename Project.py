@@ -204,7 +204,7 @@ def main():
         'NBA_03.csv', 'NBA_13.csv', 'NBA_23.csv'
     )
     
-    # Calculate averages and changes
+    # Calculate averages and changes.
     df_attempts = calculate_shot_averages(nba_03, nba_13, nba_23)
     shot_changes = calculate_shot_percentage_changes(df_attempts)
     
