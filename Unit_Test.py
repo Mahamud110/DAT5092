@@ -43,7 +43,7 @@ class TestNBAAnalysis(unittest.TestCase):
             'Pace': [98.0, 99.0, 100.0]
         })
         
-        # Save temporary CSV files for testing
+        # Save temporary CSV files for testing.
         cls.sample_data_03.to_csv('test_03.csv', index=False)
         cls.sample_data_13.to_csv('test_13.csv', index=False)
         cls.sample_data_23.to_csv('test_23.csv', index=False)
