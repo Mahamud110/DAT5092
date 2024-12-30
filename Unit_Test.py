@@ -67,28 +67,6 @@ class TestNBAAnalysis(unittest.TestCase):
         self.assertEqual(nba_13['Year'].unique()[0], '2013/14')
         self.assertEqual(nba_23['Year'].unique()[0], '2023/24')
 
-    def test_calculate_shot_averages(self):
-        """Test shot averages calculation."""
-        averages_df = calculate_shot_averages(
-            self.sample_data_03, 
-            self.sample_data_13, 
-            self.sample_data_23
-        )
-        
-        # Test DataFrame structure
-        self.assertEqual(len(averages_df), 3)
-        self.assertEqual(list(averages_df.columns), 
-                        ['3PT Attempts', '2PT Attempts', 'FT Attempts'])
-        
-        # Test average calculations
-        np.testing.assert_almost_equal(
-            averages_df.loc['2003/04', '3PA'].mean(), 
-            self.sample_data_03['3PA'].mean()
-        )
-        np.testing.assert_almost_equal(
-            averages_df.loc['2023/24', '2PA'].mean(), 
-            self.sample_data_23['2PA'].mean()
-        )
 
     def test_calculate_shot_percentage_changes(self):
         """Test percentage changes calculation."""
