@@ -2,32 +2,26 @@
 Professional Software and Career Practices Report
 
 ## Table of Contents
+- [Installation](#Installation)
+- [Repository Information](#Repository Information)
 
 
 # Installation:
-Install Prerequisites
+
+1. Install Prerequisites
 
 Make sure Python is installed on your computer (preferably Python 3.x)
 Install Git if not already installed
 
 
-2. Clone the Repository
-bashCopygit clone [repository-url]
-cd [repository-name]
+2. Clone the Repository:
+URL:https://github.com/Mahamud110/DAT5092.git
 
-3. Set Up a Virtual Environment (recommended)
-bashCopy# On Windows
-python -m venv venv
-venv\Scripts\activate
 
- On macOS/Linux
-python3 -m venv venv
-source venv/bin/activate
-
-4. Install Required Dependencies
+3. Install Required Dependencies
 bashCopypip install -r requirements.txt
 
-5. Verify Data Files
+4. Verify Data Files
 
 Ensure all three CSV files are present in the root directory:
 
@@ -35,15 +29,13 @@ NBA_03.csv
 NBA_13.csv
 NBA_23.csv
 
-
-6. Run the Analysis
-bashCopypython Project.py
+5. Run the Analysis
 
 This will generate the figures in the Figures folder
 
 
-7. (Optional) Run Unit Tests
-bashCopypython Unit_Test.py
+6.  Run Unit Tests
+
 
 
 Additional Notes for Users:
