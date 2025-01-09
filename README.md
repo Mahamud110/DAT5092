@@ -3,7 +3,7 @@ Professional Software and Career Practices Report
 
 ## Table of Contents
 - [Installation](#Installation)
-- [Repository Information](#Repository Information)
+- [Repository Information](#Repository_Information)
 
 
 # Installation:
@@ -42,7 +42,7 @@ Additional Notes for Users:
 
 The generated figures will be saved in the 'Figures' folder
    
-# Repository Information:
+# Repository_Information:
 
 This is a github repository which contains all the files needed a report that analyses shooting trends in the NBA to gauge wether an increase in 3pt shots has led to grreater scoring.
 This report contains 3 folders and 6 files and below are descriptions on what each of them do. 
